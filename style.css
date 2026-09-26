@@ -1,0 +1,93 @@
+/* Configurações Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0b0c10; /* Fundo quase preto */
+    color: #c5c6c7; /* Texto cinza claro */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Card do Batman */
+.bat-card {
+    background-color: #1f2833; /* Cinza escuro industrial */
+    border-top: 5px solid #ffcc00; /* Linha amarela clássica do Batman */
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Logo Minimalista */
+.bat-logo {
+    width: 60px;
+    height: 60px;
+    background-color: #0b0c10;
+    border: 3px solid #ffcc00;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+/* Cabeçalho */
+.bat-header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.bat-header .tagline {
+    font-size: 0.9rem;
+    color: #ffcc00; /* Amarelo Gotham */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+/* Informações */
+.bat-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.bat-info strong {
+    color: #ffffff;
+}
+
+/* Botão */
+.bat-footer {
+    margin-top: 30px;
+}
+
+.bat-btn {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #0b0c10;
+    padding: 12px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.bat-btn:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.4);
+    transform: translateY(-2px);
+}
